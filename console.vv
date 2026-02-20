@@ -1,0 +1,20 @@
+[virt-viewer]
+type=vnc
+host=10.0.6.23
+port=5900
+password=nLNMCbT3
+# Password is valid for 120 seconds.
+delete-this-file=1
+fullscreen=0
+title=coma-138:%d
+toggle-fullscreen=shift+f11
+release-cursor=shift+f12
+secure-attention=ctrl+alt+del
+versions=rhev-win64:2.0-160;rhev-win32:2.0-160;rhel8:7.0-3;rhel7:2.0-6;rhel6:99.0-1
+newer-version-url=http://www.ovirt.org/documentation/admin-guide/virt/console-client-resources
+
+[ovirt]
+host=vmserverws.astro.rug.nl:443
+vm-guid=220478c7-0cb0-40f3-bedd-8faf2a822f7e
+sso-token=gAii3gONq_mPuXoIZm8pG7qB8if_mmOwlItNfvHGYLjHw5QnR_xyaqjimIO5enDhe0z5CuzmESSL4taLmlZHMA
+admin=0
